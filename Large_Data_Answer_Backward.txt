@@ -1,0 +1,922 @@
+Welcome to Alex Hsieh's Feature Selection Algorithm.
+Type in the name of the file to test: CS170_Large_Data__1.txt
+Type the number of the algorithm you wan to run. 
+1) Forward Selection
+2) Backward Elimination
+2
+
+CS170_Large_Data__1.txt has 40 features (not including the class attribute), with 1000 instances.
+
+Running nearest neighbor with all 40 features, using "leave-one-out" evaluation, I get an accuracy of 68.4%
+
+Beginning search.
+---Removing features [] and also 1 has an accuracy of 67.6%
+---Removing features [] and also 2 has an accuracy of 70.2%
+---Removing features [] and also 3 has an accuracy of 69.5%
+---Removing features [] and also 4 has an accuracy of 68.8%
+---Removing features [] and also 5 has an accuracy of 68.4%
+---Removing features [] and also 6 has an accuracy of 69.9%
+---Removing features [] and also 7 has an accuracy of 70.9%
+---Removing features [] and also 8 has an accuracy of 69.5%
+---Removing features [] and also 9 has an accuracy of 69.5%
+---Removing features [] and also 10 has an accuracy of 69.2%
+---Removing features [] and also 11 has an accuracy of 68.6%
+---Removing features [] and also 12 has an accuracy of 71.0%
+---Removing features [] and also 13 has an accuracy of 68.7%
+---Removing features [] and also 14 has an accuracy of 69.5%
+---Removing features [] and also 15 has an accuracy of 68.4%
+---Removing features [] and also 16 has an accuracy of 67.2%
+---Removing features [] and also 17 has an accuracy of 68.0%
+---Removing features [] and also 18 has an accuracy of 68.6%
+---Removing features [] and also 19 has an accuracy of 69.8%
+---Removing features [] and also 20 has an accuracy of 68.8%
+---Removing features [] and also 21 has an accuracy of 69.2%
+---Removing features [] and also 22 has an accuracy of 70.1%
+---Removing features [] and also 23 has an accuracy of 69.4%
+---Removing features [] and also 24 has an accuracy of 69.6%
+---Removing features [] and also 25 has an accuracy of 70.6%
+---Removing features [] and also 26 has an accuracy of 67.7%
+---Removing features [] and also 27 has an accuracy of 69.1%
+---Removing features [] and also 28 has an accuracy of 69.5%
+---Removing features [] and also 29 has an accuracy of 69.5%
+---Removing features [] and also 30 has an accuracy of 68.7%
+---Removing features [] and also 31 has an accuracy of 70.6%
+---Removing features [] and also 32 has an accuracy of 67.9%
+---Removing features [] and also 33 has an accuracy of 67.1%
+---Removing features [] and also 34 has an accuracy of 69.3%
+---Removing features [] and also 35 has an accuracy of 69.5%
+---Removing features [] and also 36 has an accuracy of 68.5%
+---Removing features [] and also 37 has an accuracy of 71.1%
+---Removing features [] and also 38 has an accuracy of 67.5%
+---Removing features [] and also 39 has an accuracy of 67.7%
+---Removing features [] and also 40 has an accuracy of 71.3%
+Removing feature set [40] was the best, accuracy is 71.3%
+
+---Removing features [40] and also 1 has an accuracy of 70.3%
+---Removing features [40] and also 2 has an accuracy of 70.4%
+---Removing features [40] and also 3 has an accuracy of 71.3%
+---Removing features [40] and also 4 has an accuracy of 69.3%
+---Removing features [40] and also 5 has an accuracy of 70.2%
+---Removing features [40] and also 6 has an accuracy of 70.9%
+---Removing features [40] and also 7 has an accuracy of 72.1%
+---Removing features [40] and also 8 has an accuracy of 70.8%
+---Removing features [40] and also 9 has an accuracy of 70.6%
+---Removing features [40] and also 10 has an accuracy of 71.4%
+---Removing features [40] and also 11 has an accuracy of 71.0%
+---Removing features [40] and also 12 has an accuracy of 72.0%
+---Removing features [40] and also 13 has an accuracy of 69.2%
+---Removing features [40] and also 14 has an accuracy of 70.4%
+---Removing features [40] and also 15 has an accuracy of 69.7%
+---Removing features [40] and also 16 has an accuracy of 69.1%
+---Removing features [40] and also 17 has an accuracy of 70.6%
+---Removing features [40] and also 18 has an accuracy of 69.7%
+---Removing features [40] and also 19 has an accuracy of 71.3%
+---Removing features [40] and also 20 has an accuracy of 70.6%
+---Removing features [40] and also 21 has an accuracy of 70.4%
+---Removing features [40] and also 22 has an accuracy of 71.5%
+---Removing features [40] and also 23 has an accuracy of 70.8%
+---Removing features [40] and also 24 has an accuracy of 71.9%
+---Removing features [40] and also 25 has an accuracy of 71.6%
+---Removing features [40] and also 26 has an accuracy of 70.6%
+---Removing features [40] and also 27 has an accuracy of 70.6%
+---Removing features [40] and also 28 has an accuracy of 71.3%
+---Removing features [40] and also 29 has an accuracy of 70.6%
+---Removing features [40] and also 30 has an accuracy of 71.1%
+---Removing features [40] and also 31 has an accuracy of 70.6%
+---Removing features [40] and also 32 has an accuracy of 71.0%
+---Removing features [40] and also 33 has an accuracy of 69.3%
+---Removing features [40] and also 34 has an accuracy of 70.9%
+---Removing features [40] and also 35 has an accuracy of 71.1%
+---Removing features [40] and also 36 has an accuracy of 71.8%
+---Removing features [40] and also 37 has an accuracy of 71.5%
+---Removing features [40] and also 38 has an accuracy of 70.2%
+---Removing features [40] and also 39 has an accuracy of 69.3%
+Removing feature set [40, 7] was the best, accuracy is 72.1%
+
+---Removing features [40, 7] and also 1 has an accuracy of 71.0%
+---Removing features [40, 7] and also 2 has an accuracy of 71.2%
+---Removing features [40, 7] and also 3 has an accuracy of 71.9%
+---Removing features [40, 7] and also 4 has an accuracy of 70.3%
+---Removing features [40, 7] and also 5 has an accuracy of 71.2%
+---Removing features [40, 7] and also 6 has an accuracy of 71.3%
+---Removing features [40, 7] and also 8 has an accuracy of 72.0%
+---Removing features [40, 7] and also 9 has an accuracy of 71.0%
+---Removing features [40, 7] and also 10 has an accuracy of 71.6%
+---Removing features [40, 7] and also 11 has an accuracy of 71.0%
+---Removing features [40, 7] and also 12 has an accuracy of 71.8%
+---Removing features [40, 7] and also 13 has an accuracy of 70.9%
+---Removing features [40, 7] and also 14 has an accuracy of 71.3%
+---Removing features [40, 7] and also 15 has an accuracy of 70.2%
+---Removing features [40, 7] and also 16 has an accuracy of 69.6%
+---Removing features [40, 7] and also 17 has an accuracy of 71.0%
+---Removing features [40, 7] and also 18 has an accuracy of 69.9%
+---Removing features [40, 7] and also 19 has an accuracy of 70.8%
+---Removing features [40, 7] and also 20 has an accuracy of 71.8%
+---Removing features [40, 7] and also 21 has an accuracy of 71.1%
+---Removing features [40, 7] and also 22 has an accuracy of 71.9%
+---Removing features [40, 7] and also 23 has an accuracy of 71.7%
+---Removing features [40, 7] and also 24 has an accuracy of 70.7%
+---Removing features [40, 7] and also 25 has an accuracy of 72.3%
+---Removing features [40, 7] and also 26 has an accuracy of 70.4%
+---Removing features [40, 7] and also 27 has an accuracy of 72.1%
+---Removing features [40, 7] and also 28 has an accuracy of 72.1%
+---Removing features [40, 7] and also 29 has an accuracy of 72.0%
+---Removing features [40, 7] and also 30 has an accuracy of 71.9%
+---Removing features [40, 7] and also 31 has an accuracy of 70.9%
+---Removing features [40, 7] and also 32 has an accuracy of 72.9%
+---Removing features [40, 7] and also 33 has an accuracy of 68.2%
+---Removing features [40, 7] and also 34 has an accuracy of 71.8%
+---Removing features [40, 7] and also 35 has an accuracy of 71.2%
+---Removing features [40, 7] and also 36 has an accuracy of 71.4%
+---Removing features [40, 7] and also 37 has an accuracy of 72.7%
+---Removing features [40, 7] and also 38 has an accuracy of 71.3%
+---Removing features [40, 7] and also 39 has an accuracy of 70.6%
+Removing feature set [40, 7, 32] was the best, accuracy is 72.9%
+
+---Removing features [40, 7, 32] and also 1 has an accuracy of 71.4%
+---Removing features [40, 7, 32] and also 2 has an accuracy of 72.1%
+---Removing features [40, 7, 32] and also 3 has an accuracy of 73.2%
+---Removing features [40, 7, 32] and also 4 has an accuracy of 71.3%
+---Removing features [40, 7, 32] and also 5 has an accuracy of 72.3%
+---Removing features [40, 7, 32] and also 6 has an accuracy of 72.2%
+---Removing features [40, 7, 32] and also 8 has an accuracy of 72.7%
+---Removing features [40, 7, 32] and also 9 has an accuracy of 72.0%
+---Removing features [40, 7, 32] and also 10 has an accuracy of 72.7%
+---Removing features [40, 7, 32] and also 11 has an accuracy of 70.8%
+---Removing features [40, 7, 32] and also 12 has an accuracy of 72.8%
+---Removing features [40, 7, 32] and also 13 has an accuracy of 70.4%
+---Removing features [40, 7, 32] and also 14 has an accuracy of 72.7%
+---Removing features [40, 7, 32] and also 15 has an accuracy of 72.1%
+---Removing features [40, 7, 32] and also 16 has an accuracy of 70.4%
+---Removing features [40, 7, 32] and also 17 has an accuracy of 69.5%
+---Removing features [40, 7, 32] and also 18 has an accuracy of 71.7%
+---Removing features [40, 7, 32] and also 19 has an accuracy of 71.9%
+---Removing features [40, 7, 32] and also 20 has an accuracy of 72.1%
+---Removing features [40, 7, 32] and also 21 has an accuracy of 70.6%
+---Removing features [40, 7, 32] and also 22 has an accuracy of 72.8%
+---Removing features [40, 7, 32] and also 23 has an accuracy of 72.1%
+---Removing features [40, 7, 32] and also 24 has an accuracy of 71.1%
+---Removing features [40, 7, 32] and also 25 has an accuracy of 72.0%
+---Removing features [40, 7, 32] and also 26 has an accuracy of 70.6%
+---Removing features [40, 7, 32] and also 27 has an accuracy of 72.2%
+---Removing features [40, 7, 32] and also 28 has an accuracy of 73.1%
+---Removing features [40, 7, 32] and also 29 has an accuracy of 71.7%
+---Removing features [40, 7, 32] and also 30 has an accuracy of 72.1%
+---Removing features [40, 7, 32] and also 31 has an accuracy of 72.8%
+---Removing features [40, 7, 32] and also 33 has an accuracy of 70.3%
+---Removing features [40, 7, 32] and also 34 has an accuracy of 72.0%
+---Removing features [40, 7, 32] and also 35 has an accuracy of 71.8%
+---Removing features [40, 7, 32] and also 36 has an accuracy of 71.8%
+---Removing features [40, 7, 32] and also 37 has an accuracy of 73.6%
+---Removing features [40, 7, 32] and also 38 has an accuracy of 71.2%
+---Removing features [40, 7, 32] and also 39 has an accuracy of 71.0%
+Removing feature set [40, 7, 32, 37] was the best, accuracy is 73.6%
+
+---Removing features [40, 7, 32, 37] and also 1 has an accuracy of 70.8%
+---Removing features [40, 7, 32, 37] and also 2 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37] and also 3 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37] and also 4 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37] and also 5 has an accuracy of 72.3%
+---Removing features [40, 7, 32, 37] and also 6 has an accuracy of 71.3%
+---Removing features [40, 7, 32, 37] and also 8 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37] and also 9 has an accuracy of 73.6%
+---Removing features [40, 7, 32, 37] and also 10 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37] and also 11 has an accuracy of 72.1%
+---Removing features [40, 7, 32, 37] and also 12 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37] and also 13 has an accuracy of 71.3%
+---Removing features [40, 7, 32, 37] and also 14 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37] and also 15 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37] and also 16 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37] and also 17 has an accuracy of 69.8%
+---Removing features [40, 7, 32, 37] and also 18 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37] and also 19 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37] and also 20 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37] and also 21 has an accuracy of 71.4%
+---Removing features [40, 7, 32, 37] and also 22 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37] and also 23 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37] and also 24 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37] and also 25 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37] and also 26 has an accuracy of 70.8%
+---Removing features [40, 7, 32, 37] and also 27 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37] and also 28 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37] and also 29 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37] and also 30 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37] and also 31 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37] and also 33 has an accuracy of 71.0%
+---Removing features [40, 7, 32, 37] and also 34 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37] and also 35 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37] and also 36 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37] and also 38 has an accuracy of 72.3%
+---Removing features [40, 7, 32, 37] and also 39 has an accuracy of 71.3%
+Removing feature set [40, 7, 32, 37, 9] was the best, accuracy is 73.6%
+
+---Removing features [40, 7, 32, 37, 9] and also 1 has an accuracy of 71.4%
+---Removing features [40, 7, 32, 37, 9] and also 2 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9] and also 3 has an accuracy of 72.3%
+---Removing features [40, 7, 32, 37, 9] and also 4 has an accuracy of 71.8%
+---Removing features [40, 7, 32, 37, 9] and also 5 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9] and also 6 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9] and also 8 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37, 9] and also 10 has an accuracy of 71.6%
+---Removing features [40, 7, 32, 37, 9] and also 11 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37, 9] and also 12 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37, 9] and also 13 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37, 9] and also 14 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9] and also 15 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9] and also 16 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9] and also 17 has an accuracy of 70.1%
+---Removing features [40, 7, 32, 37, 9] and also 18 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9] and also 19 has an accuracy of 72.1%
+---Removing features [40, 7, 32, 37, 9] and also 20 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9] and also 21 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9] and also 22 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9] and also 23 has an accuracy of 72.0%
+---Removing features [40, 7, 32, 37, 9] and also 24 has an accuracy of 71.6%
+---Removing features [40, 7, 32, 37, 9] and also 25 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9] and also 26 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9] and also 27 has an accuracy of 71.6%
+---Removing features [40, 7, 32, 37, 9] and also 28 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9] and also 29 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37, 9] and also 30 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9] and also 31 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9] and also 33 has an accuracy of 72.3%
+---Removing features [40, 7, 32, 37, 9] and also 34 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9] and also 35 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37, 9] and also 36 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9] and also 38 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9] and also 39 has an accuracy of 70.7%
+Removing feature set [40, 7, 32, 37, 9, 25] was the best, accuracy is 74.2%
+
+---Removing features [40, 7, 32, 37, 9, 25] and also 1 has an accuracy of 71.1%
+---Removing features [40, 7, 32, 37, 9, 25] and also 2 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9, 25] and also 3 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25] and also 4 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25] and also 5 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 6 has an accuracy of 70.5%
+---Removing features [40, 7, 32, 37, 9, 25] and also 8 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37, 9, 25] and also 10 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37, 9, 25] and also 11 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 12 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 13 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25] and also 14 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25] and also 15 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25] and also 16 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 17 has an accuracy of 70.4%
+---Removing features [40, 7, 32, 37, 9, 25] and also 18 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25] and also 19 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37, 9, 25] and also 20 has an accuracy of 71.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 21 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25] and also 22 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25] and also 23 has an accuracy of 72.0%
+---Removing features [40, 7, 32, 37, 9, 25] and also 24 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37, 9, 25] and also 26 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9, 25] and also 27 has an accuracy of 71.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 28 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9, 25] and also 29 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25] and also 30 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25] and also 31 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37, 9, 25] and also 33 has an accuracy of 71.3%
+---Removing features [40, 7, 32, 37, 9, 25] and also 34 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37, 9, 25] and also 35 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9, 25] and also 36 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37, 9, 25] and also 38 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25] and also 39 has an accuracy of 71.9%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22] was the best, accuracy is 73.5%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 1 has an accuracy of 71.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 2 has an accuracy of 73.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 3 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 4 has an accuracy of 72.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 5 has an accuracy of 72.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 6 has an accuracy of 71.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 8 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 10 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 11 has an accuracy of 72.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 12 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 13 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 14 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 15 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 16 has an accuracy of 72.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 17 has an accuracy of 71.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 18 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 19 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 20 has an accuracy of 71.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 21 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 23 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 24 has an accuracy of 70.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 26 has an accuracy of 71.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 27 has an accuracy of 71.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 28 has an accuracy of 76.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 29 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 30 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 31 has an accuracy of 71.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 33 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 34 has an accuracy of 72.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 35 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 36 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 38 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22] and also 39 has an accuracy of 72.4%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28] was the best, accuracy is 76.0%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 1 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 2 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 3 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 4 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 5 has an accuracy of 73.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 6 has an accuracy of 72.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 8 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 10 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 11 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 12 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 13 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 14 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 15 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 16 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 17 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 18 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 19 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 20 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 21 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 23 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 24 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 26 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 27 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 29 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 30 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 31 has an accuracy of 72.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 33 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 34 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 35 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 36 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 38 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28] and also 39 has an accuracy of 73.8%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30] was the best, accuracy is 75.5%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 1 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 2 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 3 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 4 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 5 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 6 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 8 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 10 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 11 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 12 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 13 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 14 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 15 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 16 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 17 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 18 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 19 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 20 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 21 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 23 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 24 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 26 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 27 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 29 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 31 has an accuracy of 73.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 33 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 34 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 35 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 36 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 38 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30] and also 39 has an accuracy of 74.5%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] was the best, accuracy is 75.2%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 1 has an accuracy of 72.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 2 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 3 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 4 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 5 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 6 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 8 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 10 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 11 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 12 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 13 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 14 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 15 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 16 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 17 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 18 has an accuracy of 73.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 19 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 20 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 21 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 23 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 24 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 26 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 27 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 29 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 31 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 33 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 34 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 36 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 38 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35] and also 39 has an accuracy of 74.5%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] was the best, accuracy is 76.1%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 1 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 2 has an accuracy of 72.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 3 has an accuracy of 73.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 4 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 5 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 6 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 8 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 10 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 11 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 13 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 14 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 15 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 16 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 17 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 18 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 19 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 20 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 21 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 23 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 24 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 26 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 27 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 29 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 31 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 33 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 34 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 36 has an accuracy of 73.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 38 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12] and also 39 has an accuracy of 74.9%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] was the best, accuracy is 75.4%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 1 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 2 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 3 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 4 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 5 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 6 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 10 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 11 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 13 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 14 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 15 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 16 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 17 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 18 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 19 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 20 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 21 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 23 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 24 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 26 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 27 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 29 has an accuracy of 73.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 31 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 33 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 34 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 36 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 38 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8] and also 39 has an accuracy of 74.0%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] was the best, accuracy is 75.6%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 1 has an accuracy of 71.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 2 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 3 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 4 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 5 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 6 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 10 has an accuracy of 75.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 11 has an accuracy of 75.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 13 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 15 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 16 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 17 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 18 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 19 has an accuracy of 73.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 20 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 21 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 23 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 24 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 26 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 27 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 29 has an accuracy of 73.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 31 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 33 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 34 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 36 has an accuracy of 73.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 38 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14] and also 39 has an accuracy of 73.3%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] was the best, accuracy is 76.1%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 1 has an accuracy of 73.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 2 has an accuracy of 75.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 3 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 4 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 5 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 6 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 10 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 11 has an accuracy of 75.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 13 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 15 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 16 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 17 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 18 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 19 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 20 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 21 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 24 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 26 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 27 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 29 has an accuracy of 73.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 31 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 33 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 34 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 36 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 38 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23] and also 39 has an accuracy of 73.7%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] was the best, accuracy is 75.9%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 1 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 3 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 4 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 5 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 6 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 10 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 11 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 13 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 15 has an accuracy of 76.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 16 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 17 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 18 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 19 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 20 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 21 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 24 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 26 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 27 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 29 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 31 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 33 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 34 has an accuracy of 73.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 36 has an accuracy of 73.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 38 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2] and also 39 has an accuracy of 73.2%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] was the best, accuracy is 76.3%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 1 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 3 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 4 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 5 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 6 has an accuracy of 73.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 10 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 11 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 13 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 16 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 17 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 18 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 19 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 20 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 21 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 24 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 26 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 27 has an accuracy of 76.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 29 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 31 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 33 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 34 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 36 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 38 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15] and also 39 has an accuracy of 74.1%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] was the best, accuracy is 77.0%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 1 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 3 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 4 has an accuracy of 76.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 5 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 6 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 10 has an accuracy of 76.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 13 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 16 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 17 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 18 has an accuracy of 72.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 19 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 20 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 21 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 24 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 26 has an accuracy of 76.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 27 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 29 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 31 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 33 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 34 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 36 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 38 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11] and also 39 has an accuracy of 74.8%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] was the best, accuracy is 76.6%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 1 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 3 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 4 has an accuracy of 76.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 5 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 6 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 10 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 13 has an accuracy of 75.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 16 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 17 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 18 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 19 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 20 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 21 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 24 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 27 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 29 has an accuracy of 74.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 31 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 33 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 34 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 36 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 38 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26] and also 39 has an accuracy of 75.0%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] was the best, accuracy is 76.3%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 1 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 3 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 5 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 6 has an accuracy of 76.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 10 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 13 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 16 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 17 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 18 has an accuracy of 73.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 19 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 20 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 21 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 24 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 27 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 29 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 31 has an accuracy of 76.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 33 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 34 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 36 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 38 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4] and also 39 has an accuracy of 75.2%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] was the best, accuracy is 76.7%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 1 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 3 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 5 has an accuracy of 75.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 6 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 13 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 16 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 17 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 18 has an accuracy of 73.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 19 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 20 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 21 has an accuracy of 75.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 24 has an accuracy of 74.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 27 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 29 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 31 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 33 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 34 has an accuracy of 74.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 36 has an accuracy of 76.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 38 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10] and also 39 has an accuracy of 74.6%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] was the best, accuracy is 77.5%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 1 has an accuracy of 76.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 3 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 5 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 6 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 13 has an accuracy of 76.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 16 has an accuracy of 75.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 17 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 18 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 19 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 20 has an accuracy of 76.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 21 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 24 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 27 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 29 has an accuracy of 76.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 33 has an accuracy of 74.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 34 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 36 has an accuracy of 76.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 38 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31] and also 39 has an accuracy of 77.0%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] was the best, accuracy is 77.0%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 1 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 3 has an accuracy of 75.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 5 has an accuracy of 76.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 13 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 16 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 17 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 18 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 19 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 20 has an accuracy of 74.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 21 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 24 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 27 has an accuracy of 78.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 29 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 33 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 34 has an accuracy of 74.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 36 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 38 has an accuracy of 75.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6] and also 39 has an accuracy of 76.2%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] was the best, accuracy is 78.3%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 1 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 3 has an accuracy of 78.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 5 has an accuracy of 77.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 13 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 16 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 17 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 18 has an accuracy of 74.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 19 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 20 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 21 has an accuracy of 75.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 24 has an accuracy of 76.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 29 has an accuracy of 78.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 33 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 34 has an accuracy of 78.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 36 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 38 has an accuracy of 78.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27] and also 39 has an accuracy of 77.3%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] was the best, accuracy is 78.7%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 1 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 3 has an accuracy of 77.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 5 has an accuracy of 77.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 13 has an accuracy of 78.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 16 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 17 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 18 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 19 has an accuracy of 78.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 20 has an accuracy of 76.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 21 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 24 has an accuracy of 77.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 29 has an accuracy of 78.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 33 has an accuracy of 77.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 34 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 36 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38] and also 39 has an accuracy of 76.7%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] was the best, accuracy is 78.9%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 1 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 3 has an accuracy of 78.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 5 has an accuracy of 77.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 16 has an accuracy of 78.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 17 has an accuracy of 76.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 18 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 19 has an accuracy of 76.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 20 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 21 has an accuracy of 74.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 24 has an accuracy of 75.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 29 has an accuracy of 76.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 33 has an accuracy of 77.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 34 has an accuracy of 76.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 36 has an accuracy of 76.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13] and also 39 has an accuracy of 77.1%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] was the best, accuracy is 78.7%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 1 has an accuracy of 76.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 5 has an accuracy of 79.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 16 has an accuracy of 78.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 17 has an accuracy of 78.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 18 has an accuracy of 72.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 19 has an accuracy of 77.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 20 has an accuracy of 76.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 21 has an accuracy of 75.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 24 has an accuracy of 76.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 29 has an accuracy of 76.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 33 has an accuracy of 78.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 34 has an accuracy of 75.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 36 has an accuracy of 75.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3] and also 39 has an accuracy of 77.4%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] was the best, accuracy is 79.4%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 1 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 16 has an accuracy of 79.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 17 has an accuracy of 78.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 18 has an accuracy of 74.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 19 has an accuracy of 78.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 20 has an accuracy of 78.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 21 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 24 has an accuracy of 76.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 29 has an accuracy of 78.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 33 has an accuracy of 79.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 34 has an accuracy of 77.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 36 has an accuracy of 77.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5] and also 39 has an accuracy of 77.9%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] was the best, accuracy is 79.4%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 1 has an accuracy of 77.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 16 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 17 has an accuracy of 77.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 18 has an accuracy of 70.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 19 has an accuracy of 77.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 20 has an accuracy of 78.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 21 has an accuracy of 75.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 24 has an accuracy of 76.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 29 has an accuracy of 77.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 34 has an accuracy of 77.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 36 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33] and also 39 has an accuracy of 80.1%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] was the best, accuracy is 80.1%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 1 has an accuracy of 78.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 16 has an accuracy of 77.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 17 has an accuracy of 78.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 18 has an accuracy of 72.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 19 has an accuracy of 78.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 20 has an accuracy of 80.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 21 has an accuracy of 77.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 24 has an accuracy of 78.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 29 has an accuracy of 79.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 34 has an accuracy of 78.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39] and also 36 has an accuracy of 78.4%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] was the best, accuracy is 80.0%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 1 has an accuracy of 81.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 16 has an accuracy of 79.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 17 has an accuracy of 80.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 18 has an accuracy of 71.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 19 has an accuracy of 80.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 21 has an accuracy of 78.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 24 has an accuracy of 76.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 29 has an accuracy of 79.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 34 has an accuracy of 76.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20] and also 36 has an accuracy of 79.9%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] was the best, accuracy is 81.5%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 16 has an accuracy of 79.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 17 has an accuracy of 81.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 18 has an accuracy of 75.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 19 has an accuracy of 82.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 21 has an accuracy of 80.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 24 has an accuracy of 80.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 29 has an accuracy of 81.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 34 has an accuracy of 75.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1] and also 36 has an accuracy of 79.9%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] was the best, accuracy is 82.5%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 16 has an accuracy of 81.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 17 has an accuracy of 83.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 18 has an accuracy of 72.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 21 has an accuracy of 82.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 24 has an accuracy of 81.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 29 has an accuracy of 83.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 34 has an accuracy of 76.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19] and also 36 has an accuracy of 82.6%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] was the best, accuracy is 83.9%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 16 has an accuracy of 84.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 18 has an accuracy of 71.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 21 has an accuracy of 85.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 24 has an accuracy of 84.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 29 has an accuracy of 84.6%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 34 has an accuracy of 77.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17] and also 36 has an accuracy of 84.1%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] was the best, accuracy is 85.0%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] and also 16 has an accuracy of 86.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] and also 18 has an accuracy of 71.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] and also 24 has an accuracy of 86.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] and also 29 has an accuracy of 88.3%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] and also 34 has an accuracy of 77.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21] and also 36 has an accuracy of 86.8%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29] was the best, accuracy is 88.3%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29] and also 16 has an accuracy of 90.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29] and also 18 has an accuracy of 75.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29] and also 24 has an accuracy of 89.2%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29] and also 34 has an accuracy of 80.4%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29] and also 36 has an accuracy of 89.7%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16] was the best, accuracy is 90.8%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16] and also 18 has an accuracy of 73.9%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16] and also 24 has an accuracy of 93.0%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16] and also 34 has an accuracy of 80.5%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16] and also 36 has an accuracy of 93.8%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36] was the best, accuracy is 93.8%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36] and also 18 has an accuracy of 74.1%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36] and also 24 has an accuracy of 96.7%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36] and also 34 has an accuracy of 81.5%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24] was the best, accuracy is 96.7%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24] and also 18 has an accuracy of 73.8%
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24] and also 34 has an accuracy of 82.8%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24, 34] was the best, accuracy is 82.8%
+
+---Removing features [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24, 34] and also 18 has an accuracy of 80.5%
+Removing feature set [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24, 34, 18] was the best, accuracy is 80.5%
+
+
+Finished search! The best feature subset to remove is [40, 7, 32, 37, 9, 25, 22, 28, 30, 35, 12, 8, 14, 23, 2, 15, 11, 26, 4, 10, 31, 6, 27, 38, 13, 3, 5, 33, 39, 20, 1, 19, 17, 21, 29, 16, 36, 24], which has an accuracy of 96.7%
