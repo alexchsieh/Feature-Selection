@@ -34,7 +34,7 @@ def feature_search(data, alg):
                 accuracy = leave_one_out_cross_validation(
                     data, current_set_of_features, k, alg)
 
-                print(f'---Using features {current_set_of_features} and adding {k} has an accuracy of {round(accuracy * 100, 1)}%') if alg == 1 else print(
+                print(f'---Using features {current_set_of_features} and adding {k} has an accuracy of {round(accuracy * 100, 1)}%') if alg == '1' else print(
                     f'---Removing features {current_set_of_features} and also {k} has an accuracy of {round(accuracy * 100, 1)}%')
 
                 # Keeps track of proper accuracy
@@ -57,11 +57,11 @@ def feature_search(data, alg):
             print(
                 '(Warning, accuracy has decreased! Continuing search in case of local maxima)')
 
-        print(f'Feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%') if alg == 1 else print(
+        print(f'Feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%') if alg == '1' else print(
             f'Removing feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%')
         print()
 
-    print(f'\nFinished search! The best feature subset is {s}, which has an accuracy of {round(acc * 100, 1)}%') if alg == 1 else print(
+    print(f'\nFinished search! The best feature subset is {s}, which has an accuracy of {round(acc * 100, 1)}%') if alg == '1' else print(
         f'\nFinished search! The best feature subset to remove is {s}, which has an accuracy of {round(acc * 100, 1)}%')
 
 
@@ -78,9 +78,9 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
     ignoreColumns = None
 
     # If forward, save all the columns you are ignoring from the total data set
-    if alg == 1:
-        # FIX THIS
+    if alg == '1':
         ignoreColumns = list(range(1, len(data[0])))
+        # from https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
         ignoreColumns = [x for x in ignoreColumns if x not in a]
 
     # If backwards, give it current data set as you're going to remove
@@ -110,11 +110,11 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
 
 
 def main():
-    print("Welcome to Alex Hsieh's Feature Selection Algortihm.")
+    print("Welcome to Alex Hsieh's Feature Selection Algorithm.")
 
     file = input('Type in the name of the file to test: ')
-    algo = int(
-        input('Type the numbef of the algorithm you wan to run. \n1) Forward Selection\n2) Backward Elimination\n'))
+    algo = input(
+        'Type the number of the algorithm you wan to run. \n1) Forward Selection\n2) Backward Elimination\n')
 
     # Reading file using pandas library
     data = table.read_table(file, delim_whitespace=True, header=None)
@@ -128,10 +128,10 @@ def main():
 
     # Looks for the accuracy
     acc = leave_one_out_cross_validation(
-        save, [], [], '1' if algo == 1 else '2')
+        save, [], [], '1' if algo == '1' else '2')
 
     print(
-        f'\nRunning nearest neighbor with all {data.shape[1] - 1} features, using "leave-one-out" evaluation, I get an accuracy of {acc}%')
+        f'\nRunning nearest neighbor with all {data.shape[1] - 1} features, using "leave-one-out" evaluation, I get an accuracy of {round(acc*100,1)}%')
     print('\nBeginning search.')
     feature_search(save, algo)
 
