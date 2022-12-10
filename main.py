@@ -1,5 +1,6 @@
 import pandas as table
 import copy
+import math
 
 
 def feature_search(data, alg):
@@ -77,25 +78,25 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
     else:
         ignoreColumns = a
 
-    for i in range(1, len(data[0])):
-        object_to_classify = data(i, 2: end)
-        label_object_to_classify = data(i, 1)
+    for i, currRow in enumerate(data):
+        label_object_to_classify = currRow[0]
         nearest_neighbor_distance = float('inf')
-        nearest_neighbor_location = float('inf')
         nearest_neighbor_label = float('inf')
 
-        for k in range(1, len(data[0])):
+        for k, currRowSkip in enumerate(data):
             # skips itself from classification
             if k == i:
                 continue
 
+            dist = 0
             # figure out distance function
-            distance = sqrt(sum((object_to_classify - data(k, 2: end)). ^ 2))
+            for i in range(1, len(currRow)):
+                if i not in ignoreColumns:
+                    dist = math.sqrt(pow(sum(currRow[i]-currRowSkip[i]), 2))
 
-            if distance < nearest_neighbor_distance:
-                nearest_neighbor_distance = distance
-                nearest_neighbor_location = k
-                nearest_neighbor_label = data(nearest_neighbor_location, 1)
+            if dist < nearest_neighbor_distance:
+                nearest_neighbor_distance = dist
+                nearest_neighbor_label = currRowSkip[0]
 
         if label_object_to_classify == nearest_neighbor_label:
             number_correctly_classified = number_correctly_classified + 1
