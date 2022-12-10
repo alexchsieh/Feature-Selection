@@ -1,0 +1,915 @@
+Welcome to Alex Hsieh's Feature Selection Algorithm.
+Type in the name of the file to test: CS170_Large_Data__1.txt
+Type the number of the algorithm you wan to run. 
+1) Forward Selection
+2) Backward Elimination
+1
+
+CS170_Small_Data__98.txt has 6 features (not including the class attribute), with 500 instances.
+
+Running nearest neighbor with all 6 features, using "leave-one-out" evaluation, I get an accuracy of 80.5%
+
+Beginning search.
+---Using features [] and adding 1 has an accuracy of 67.7%
+---Using features [] and adding 2 has an accuracy of 67.6%
+---Using features [] and adding 3 has an accuracy of 70.9%
+---Using features [] and adding 4 has an accuracy of 68.8%
+---Using features [] and adding 5 has an accuracy of 69.2%
+---Using features [] and adding 6 has an accuracy of 69.0%
+---Using features [] and adding 7 has an accuracy of 67.6%
+---Using features [] and adding 8 has an accuracy of 71.3%
+---Using features [] and adding 9 has an accuracy of 69.2%
+---Using features [] and adding 10 has an accuracy of 67.2%
+---Using features [] and adding 11 has an accuracy of 68.7%
+---Using features [] and adding 12 has an accuracy of 69.0%
+---Using features [] and adding 13 has an accuracy of 70.1%
+---Using features [] and adding 14 has an accuracy of 70.5%
+---Using features [] and adding 15 has an accuracy of 68.0%
+---Using features [] and adding 16 has an accuracy of 70.3%
+---Using features [] and adding 17 has an accuracy of 68.3%
+---Using features [] and adding 18 has an accuracy of 82.8%
+---Using features [] and adding 19 has an accuracy of 68.2%
+---Using features [] and adding 20 has an accuracy of 69.8%
+---Using features [] and adding 21 has an accuracy of 68.2%
+---Using features [] and adding 22 has an accuracy of 70.3%
+---Using features [] and adding 23 has an accuracy of 66.8%
+---Using features [] and adding 24 has an accuracy of 66.7%
+---Using features [] and adding 25 has an accuracy of 67.5%
+---Using features [] and adding 26 has an accuracy of 69.3%
+---Using features [] and adding 27 has an accuracy of 66.6%
+---Using features [] and adding 28 has an accuracy of 70.0%
+---Using features [] and adding 29 has an accuracy of 69.6%
+---Using features [] and adding 30 has an accuracy of 69.1%
+---Using features [] and adding 31 has an accuracy of 70.9%
+---Using features [] and adding 32 has an accuracy of 66.9%
+---Using features [] and adding 33 has an accuracy of 68.3%
+---Using features [] and adding 34 has an accuracy of 73.8%
+---Using features [] and adding 35 has an accuracy of 68.2%
+---Using features [] and adding 36 has an accuracy of 67.7%
+---Using features [] and adding 37 has an accuracy of 69.3%
+---Using features [] and adding 38 has an accuracy of 68.5%
+---Using features [] and adding 39 has an accuracy of 67.8%
+---Using features [] and adding 40 has an accuracy of 68.8%
+Feature set [18] was the best, accuracy is 82.8%
+
+---Using features [18] and adding 1 has an accuracy of 82.2%
+---Using features [18] and adding 2 has an accuracy of 83.1%
+---Using features [18] and adding 3 has an accuracy of 84.0%
+---Using features [18] and adding 4 has an accuracy of 84.0%
+---Using features [18] and adding 5 has an accuracy of 83.9%
+---Using features [18] and adding 6 has an accuracy of 82.1%
+---Using features [18] and adding 7 has an accuracy of 84.1%
+---Using features [18] and adding 8 has an accuracy of 81.1%
+---Using features [18] and adding 9 has an accuracy of 82.4%
+---Using features [18] and adding 10 has an accuracy of 80.8%
+---Using features [18] and adding 11 has an accuracy of 83.2%
+---Using features [18] and adding 12 has an accuracy of 83.5%
+---Using features [18] and adding 13 has an accuracy of 80.7%
+---Using features [18] and adding 14 has an accuracy of 82.8%
+---Using features [18] and adding 15 has an accuracy of 83.7%
+---Using features [18] and adding 16 has an accuracy of 83.6%
+---Using features [18] and adding 17 has an accuracy of 82.4%
+---Using features [18] and adding 19 has an accuracy of 84.1%
+---Using features [18] and adding 20 has an accuracy of 84.3%
+---Using features [18] and adding 21 has an accuracy of 84.1%
+---Using features [18] and adding 22 has an accuracy of 81.9%
+---Using features [18] and adding 23 has an accuracy of 81.2%
+---Using features [18] and adding 24 has an accuracy of 81.5%
+---Using features [18] and adding 25 has an accuracy of 82.8%
+---Using features [18] and adding 26 has an accuracy of 82.0%
+---Using features [18] and adding 27 has an accuracy of 82.0%
+---Using features [18] and adding 28 has an accuracy of 82.1%
+---Using features [18] and adding 29 has an accuracy of 81.4%
+---Using features [18] and adding 30 has an accuracy of 83.7%
+---Using features [18] and adding 31 has an accuracy of 79.9%
+---Using features [18] and adding 32 has an accuracy of 81.8%
+---Using features [18] and adding 33 has an accuracy of 80.3%
+---Using features [18] and adding 34 has an accuracy of 96.7%
+---Using features [18] and adding 35 has an accuracy of 84.0%
+---Using features [18] and adding 36 has an accuracy of 81.7%
+---Using features [18] and adding 37 has an accuracy of 81.7%
+---Using features [18] and adding 38 has an accuracy of 84.8%
+---Using features [18] and adding 39 has an accuracy of 81.8%
+---Using features [18] and adding 40 has an accuracy of 80.8%
+Feature set [18, 34] was the best, accuracy is 96.7%
+
+---Using features [18, 34] and adding 1 has an accuracy of 94.2%
+---Using features [18, 34] and adding 2 has an accuracy of 93.0%
+---Using features [18, 34] and adding 3 has an accuracy of 94.1%
+---Using features [18, 34] and adding 4 has an accuracy of 92.9%
+---Using features [18, 34] and adding 5 has an accuracy of 93.3%
+---Using features [18, 34] and adding 6 has an accuracy of 94.4%
+---Using features [18, 34] and adding 7 has an accuracy of 92.5%
+---Using features [18, 34] and adding 8 has an accuracy of 93.4%
+---Using features [18, 34] and adding 9 has an accuracy of 93.5%
+---Using features [18, 34] and adding 10 has an accuracy of 93.1%
+---Using features [18, 34] and adding 11 has an accuracy of 94.1%
+---Using features [18, 34] and adding 12 has an accuracy of 94.3%
+---Using features [18, 34] and adding 13 has an accuracy of 94.1%
+---Using features [18, 34] and adding 14 has an accuracy of 94.5%
+---Using features [18, 34] and adding 15 has an accuracy of 93.6%
+---Using features [18, 34] and adding 16 has an accuracy of 93.2%
+---Using features [18, 34] and adding 17 has an accuracy of 93.5%
+---Using features [18, 34] and adding 19 has an accuracy of 93.3%
+---Using features [18, 34] and adding 20 has an accuracy of 93.9%
+---Using features [18, 34] and adding 21 has an accuracy of 93.4%
+---Using features [18, 34] and adding 22 has an accuracy of 93.6%
+---Using features [18, 34] and adding 23 has an accuracy of 92.6%
+---Using features [18, 34] and adding 24 has an accuracy of 93.8%
+---Using features [18, 34] and adding 25 has an accuracy of 94.5%
+---Using features [18, 34] and adding 26 has an accuracy of 92.8%
+---Using features [18, 34] and adding 27 has an accuracy of 93.9%
+---Using features [18, 34] and adding 28 has an accuracy of 93.1%
+---Using features [18, 34] and adding 29 has an accuracy of 92.9%
+---Using features [18, 34] and adding 30 has an accuracy of 93.6%
+---Using features [18, 34] and adding 31 has an accuracy of 94.1%
+---Using features [18, 34] and adding 32 has an accuracy of 93.4%
+---Using features [18, 34] and adding 33 has an accuracy of 93.3%
+---Using features [18, 34] and adding 35 has an accuracy of 94.3%
+---Using features [18, 34] and adding 36 has an accuracy of 93.0%
+---Using features [18, 34] and adding 37 has an accuracy of 93.9%
+---Using features [18, 34] and adding 38 has an accuracy of 93.2%
+---Using features [18, 34] and adding 39 has an accuracy of 93.5%
+---Using features [18, 34] and adding 40 has an accuracy of 93.5%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Feature set [18, 34, 14] was the best, accuracy is 94.5%
+
+---Using features [18, 34, 14] and adding 1 has an accuracy of 91.1%
+---Using features [18, 34, 14] and adding 2 has an accuracy of 90.6%
+---Using features [18, 34, 14] and adding 3 has an accuracy of 88.6%
+---Using features [18, 34, 14] and adding 4 has an accuracy of 90.5%
+---Using features [18, 34, 14] and adding 5 has an accuracy of 90.3%
+---Using features [18, 34, 14] and adding 6 has an accuracy of 90.8%
+---Using features [18, 34, 14] and adding 7 has an accuracy of 90.8%
+---Using features [18, 34, 14] and adding 8 has an accuracy of 88.8%
+---Using features [18, 34, 14] and adding 9 has an accuracy of 89.9%
+---Using features [18, 34, 14] and adding 10 has an accuracy of 91.9%
+---Using features [18, 34, 14] and adding 11 has an accuracy of 90.0%
+---Using features [18, 34, 14] and adding 12 has an accuracy of 90.0%
+---Using features [18, 34, 14] and adding 13 has an accuracy of 90.5%
+---Using features [18, 34, 14] and adding 15 has an accuracy of 89.6%
+---Using features [18, 34, 14] and adding 16 has an accuracy of 89.4%
+---Using features [18, 34, 14] and adding 17 has an accuracy of 89.8%
+---Using features [18, 34, 14] and adding 19 has an accuracy of 88.8%
+---Using features [18, 34, 14] and adding 20 has an accuracy of 91.8%
+---Using features [18, 34, 14] and adding 21 has an accuracy of 89.9%
+---Using features [18, 34, 14] and adding 22 has an accuracy of 91.1%
+---Using features [18, 34, 14] and adding 23 has an accuracy of 89.7%
+---Using features [18, 34, 14] and adding 24 has an accuracy of 90.3%
+---Using features [18, 34, 14] and adding 25 has an accuracy of 92.2%
+---Using features [18, 34, 14] and adding 26 has an accuracy of 91.5%
+---Using features [18, 34, 14] and adding 27 has an accuracy of 90.4%
+---Using features [18, 34, 14] and adding 28 has an accuracy of 90.9%
+---Using features [18, 34, 14] and adding 29 has an accuracy of 90.2%
+---Using features [18, 34, 14] and adding 30 has an accuracy of 90.2%
+---Using features [18, 34, 14] and adding 31 has an accuracy of 91.5%
+---Using features [18, 34, 14] and adding 32 has an accuracy of 90.6%
+---Using features [18, 34, 14] and adding 33 has an accuracy of 89.5%
+---Using features [18, 34, 14] and adding 35 has an accuracy of 90.7%
+---Using features [18, 34, 14] and adding 36 has an accuracy of 91.0%
+---Using features [18, 34, 14] and adding 37 has an accuracy of 89.1%
+---Using features [18, 34, 14] and adding 38 has an accuracy of 90.7%
+---Using features [18, 34, 14] and adding 39 has an accuracy of 90.7%
+---Using features [18, 34, 14] and adding 40 has an accuracy of 90.9%
+Feature set [18, 34, 14, 25] was the best, accuracy is 92.2%
+
+---Using features [18, 34, 14, 25] and adding 1 has an accuracy of 89.0%
+---Using features [18, 34, 14, 25] and adding 2 has an accuracy of 85.5%
+---Using features [18, 34, 14, 25] and adding 3 has an accuracy of 88.1%
+---Using features [18, 34, 14, 25] and adding 4 has an accuracy of 88.2%
+---Using features [18, 34, 14, 25] and adding 5 has an accuracy of 86.7%
+---Using features [18, 34, 14, 25] and adding 6 has an accuracy of 86.9%
+---Using features [18, 34, 14, 25] and adding 7 has an accuracy of 88.9%
+---Using features [18, 34, 14, 25] and adding 8 has an accuracy of 87.8%
+---Using features [18, 34, 14, 25] and adding 9 has an accuracy of 87.3%
+---Using features [18, 34, 14, 25] and adding 10 has an accuracy of 87.3%
+---Using features [18, 34, 14, 25] and adding 11 has an accuracy of 86.9%
+---Using features [18, 34, 14, 25] and adding 12 has an accuracy of 87.2%
+---Using features [18, 34, 14, 25] and adding 13 has an accuracy of 88.2%
+---Using features [18, 34, 14, 25] and adding 15 has an accuracy of 87.0%
+---Using features [18, 34, 14, 25] and adding 16 has an accuracy of 87.2%
+---Using features [18, 34, 14, 25] and adding 17 has an accuracy of 88.7%
+---Using features [18, 34, 14, 25] and adding 19 has an accuracy of 88.3%
+---Using features [18, 34, 14, 25] and adding 20 has an accuracy of 89.7%
+---Using features [18, 34, 14, 25] and adding 21 has an accuracy of 87.3%
+---Using features [18, 34, 14, 25] and adding 22 has an accuracy of 86.1%
+---Using features [18, 34, 14, 25] and adding 23 has an accuracy of 88.0%
+---Using features [18, 34, 14, 25] and adding 24 has an accuracy of 87.3%
+---Using features [18, 34, 14, 25] and adding 26 has an accuracy of 88.6%
+---Using features [18, 34, 14, 25] and adding 27 has an accuracy of 87.9%
+---Using features [18, 34, 14, 25] and adding 28 has an accuracy of 86.2%
+---Using features [18, 34, 14, 25] and adding 29 has an accuracy of 87.0%
+---Using features [18, 34, 14, 25] and adding 30 has an accuracy of 88.6%
+---Using features [18, 34, 14, 25] and adding 31 has an accuracy of 89.0%
+---Using features [18, 34, 14, 25] and adding 32 has an accuracy of 88.5%
+---Using features [18, 34, 14, 25] and adding 33 has an accuracy of 88.0%
+---Using features [18, 34, 14, 25] and adding 35 has an accuracy of 89.1%
+---Using features [18, 34, 14, 25] and adding 36 has an accuracy of 86.8%
+---Using features [18, 34, 14, 25] and adding 37 has an accuracy of 87.2%
+---Using features [18, 34, 14, 25] and adding 38 has an accuracy of 88.7%
+---Using features [18, 34, 14, 25] and adding 39 has an accuracy of 87.8%
+---Using features [18, 34, 14, 25] and adding 40 has an accuracy of 87.5%
+Feature set [18, 34, 14, 25, 20] was the best, accuracy is 89.7%
+
+---Using features [18, 34, 14, 25, 20] and adding 1 has an accuracy of 85.0%
+---Using features [18, 34, 14, 25, 20] and adding 2 has an accuracy of 83.4%
+---Using features [18, 34, 14, 25, 20] and adding 3 has an accuracy of 84.7%
+---Using features [18, 34, 14, 25, 20] and adding 4 has an accuracy of 85.8%
+---Using features [18, 34, 14, 25, 20] and adding 5 has an accuracy of 82.9%
+---Using features [18, 34, 14, 25, 20] and adding 6 has an accuracy of 85.2%
+---Using features [18, 34, 14, 25, 20] and adding 7 has an accuracy of 84.9%
+---Using features [18, 34, 14, 25, 20] and adding 8 has an accuracy of 86.0%
+---Using features [18, 34, 14, 25, 20] and adding 9 has an accuracy of 85.8%
+---Using features [18, 34, 14, 25, 20] and adding 10 has an accuracy of 85.3%
+---Using features [18, 34, 14, 25, 20] and adding 11 has an accuracy of 85.1%
+---Using features [18, 34, 14, 25, 20] and adding 12 has an accuracy of 81.6%
+---Using features [18, 34, 14, 25, 20] and adding 13 has an accuracy of 83.5%
+---Using features [18, 34, 14, 25, 20] and adding 15 has an accuracy of 83.7%
+---Using features [18, 34, 14, 25, 20] and adding 16 has an accuracy of 84.6%
+---Using features [18, 34, 14, 25, 20] and adding 17 has an accuracy of 85.2%
+---Using features [18, 34, 14, 25, 20] and adding 19 has an accuracy of 84.9%
+---Using features [18, 34, 14, 25, 20] and adding 21 has an accuracy of 84.1%
+---Using features [18, 34, 14, 25, 20] and adding 22 has an accuracy of 83.8%
+---Using features [18, 34, 14, 25, 20] and adding 23 has an accuracy of 86.1%
+---Using features [18, 34, 14, 25, 20] and adding 24 has an accuracy of 84.0%
+---Using features [18, 34, 14, 25, 20] and adding 26 has an accuracy of 84.3%
+---Using features [18, 34, 14, 25, 20] and adding 27 has an accuracy of 84.7%
+---Using features [18, 34, 14, 25, 20] and adding 28 has an accuracy of 86.4%
+---Using features [18, 34, 14, 25, 20] and adding 29 has an accuracy of 85.6%
+---Using features [18, 34, 14, 25, 20] and adding 30 has an accuracy of 85.7%
+---Using features [18, 34, 14, 25, 20] and adding 31 has an accuracy of 85.4%
+---Using features [18, 34, 14, 25, 20] and adding 32 has an accuracy of 85.3%
+---Using features [18, 34, 14, 25, 20] and adding 33 has an accuracy of 84.2%
+---Using features [18, 34, 14, 25, 20] and adding 35 has an accuracy of 84.3%
+---Using features [18, 34, 14, 25, 20] and adding 36 has an accuracy of 84.1%
+---Using features [18, 34, 14, 25, 20] and adding 37 has an accuracy of 82.6%
+---Using features [18, 34, 14, 25, 20] and adding 38 has an accuracy of 83.9%
+---Using features [18, 34, 14, 25, 20] and adding 39 has an accuracy of 86.1%
+---Using features [18, 34, 14, 25, 20] and adding 40 has an accuracy of 84.2%
+Feature set [18, 34, 14, 25, 20, 28] was the best, accuracy is 86.4%
+
+---Using features [18, 34, 14, 25, 20, 28] and adding 1 has an accuracy of 82.6%
+---Using features [18, 34, 14, 25, 20, 28] and adding 2 has an accuracy of 81.3%
+---Using features [18, 34, 14, 25, 20, 28] and adding 3 has an accuracy of 82.5%
+---Using features [18, 34, 14, 25, 20, 28] and adding 4 has an accuracy of 85.1%
+---Using features [18, 34, 14, 25, 20, 28] and adding 5 has an accuracy of 82.1%
+---Using features [18, 34, 14, 25, 20, 28] and adding 6 has an accuracy of 84.3%
+---Using features [18, 34, 14, 25, 20, 28] and adding 7 has an accuracy of 83.7%
+---Using features [18, 34, 14, 25, 20, 28] and adding 8 has an accuracy of 82.3%
+---Using features [18, 34, 14, 25, 20, 28] and adding 9 has an accuracy of 82.3%
+---Using features [18, 34, 14, 25, 20, 28] and adding 10 has an accuracy of 81.1%
+---Using features [18, 34, 14, 25, 20, 28] and adding 11 has an accuracy of 83.6%
+---Using features [18, 34, 14, 25, 20, 28] and adding 12 has an accuracy of 80.6%
+---Using features [18, 34, 14, 25, 20, 28] and adding 13 has an accuracy of 80.5%
+---Using features [18, 34, 14, 25, 20, 28] and adding 15 has an accuracy of 83.1%
+---Using features [18, 34, 14, 25, 20, 28] and adding 16 has an accuracy of 81.7%
+---Using features [18, 34, 14, 25, 20, 28] and adding 17 has an accuracy of 82.7%
+---Using features [18, 34, 14, 25, 20, 28] and adding 19 has an accuracy of 82.2%
+---Using features [18, 34, 14, 25, 20, 28] and adding 21 has an accuracy of 81.3%
+---Using features [18, 34, 14, 25, 20, 28] and adding 22 has an accuracy of 82.7%
+---Using features [18, 34, 14, 25, 20, 28] and adding 23 has an accuracy of 83.0%
+---Using features [18, 34, 14, 25, 20, 28] and adding 24 has an accuracy of 81.3%
+---Using features [18, 34, 14, 25, 20, 28] and adding 26 has an accuracy of 82.1%
+---Using features [18, 34, 14, 25, 20, 28] and adding 27 has an accuracy of 83.4%
+---Using features [18, 34, 14, 25, 20, 28] and adding 29 has an accuracy of 81.8%
+---Using features [18, 34, 14, 25, 20, 28] and adding 30 has an accuracy of 84.6%
+---Using features [18, 34, 14, 25, 20, 28] and adding 31 has an accuracy of 82.9%
+---Using features [18, 34, 14, 25, 20, 28] and adding 32 has an accuracy of 82.2%
+---Using features [18, 34, 14, 25, 20, 28] and adding 33 has an accuracy of 82.8%
+---Using features [18, 34, 14, 25, 20, 28] and adding 35 has an accuracy of 80.4%
+---Using features [18, 34, 14, 25, 20, 28] and adding 36 has an accuracy of 82.1%
+---Using features [18, 34, 14, 25, 20, 28] and adding 37 has an accuracy of 81.4%
+---Using features [18, 34, 14, 25, 20, 28] and adding 38 has an accuracy of 82.6%
+---Using features [18, 34, 14, 25, 20, 28] and adding 39 has an accuracy of 83.5%
+---Using features [18, 34, 14, 25, 20, 28] and adding 40 has an accuracy of 81.7%
+Feature set [18, 34, 14, 25, 20, 28, 4] was the best, accuracy is 85.1%
+
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 1 has an accuracy of 81.6%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 2 has an accuracy of 80.7%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 3 has an accuracy of 81.4%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 5 has an accuracy of 80.5%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 6 has an accuracy of 81.4%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 7 has an accuracy of 80.6%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 8 has an accuracy of 81.7%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 9 has an accuracy of 79.7%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 10 has an accuracy of 79.2%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 11 has an accuracy of 81.2%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 12 has an accuracy of 80.0%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 13 has an accuracy of 78.7%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 15 has an accuracy of 81.2%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 16 has an accuracy of 79.9%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 17 has an accuracy of 81.2%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 19 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 21 has an accuracy of 80.5%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 22 has an accuracy of 81.9%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 23 has an accuracy of 79.8%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 24 has an accuracy of 79.0%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 26 has an accuracy of 83.7%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 27 has an accuracy of 80.6%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 29 has an accuracy of 79.6%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 30 has an accuracy of 80.5%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 31 has an accuracy of 81.1%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 32 has an accuracy of 81.1%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 33 has an accuracy of 80.1%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 35 has an accuracy of 80.0%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 36 has an accuracy of 80.8%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 37 has an accuracy of 80.1%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 38 has an accuracy of 79.6%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 39 has an accuracy of 80.4%
+---Using features [18, 34, 14, 25, 20, 28, 4] and adding 40 has an accuracy of 79.3%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26] was the best, accuracy is 83.7%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 1 has an accuracy of 78.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 2 has an accuracy of 79.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 3 has an accuracy of 80.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 5 has an accuracy of 80.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 6 has an accuracy of 82.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 7 has an accuracy of 80.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 8 has an accuracy of 80.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 9 has an accuracy of 79.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 10 has an accuracy of 79.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 11 has an accuracy of 80.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 12 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 13 has an accuracy of 79.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 15 has an accuracy of 79.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 16 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 17 has an accuracy of 78.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 19 has an accuracy of 79.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 21 has an accuracy of 79.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 22 has an accuracy of 78.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 23 has an accuracy of 77.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 24 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 27 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 29 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 30 has an accuracy of 80.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 31 has an accuracy of 80.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 32 has an accuracy of 77.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 33 has an accuracy of 78.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 35 has an accuracy of 78.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 36 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 37 has an accuracy of 79.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 38 has an accuracy of 78.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 39 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26] and adding 40 has an accuracy of 79.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6] was the best, accuracy is 82.2%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 1 has an accuracy of 80.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 2 has an accuracy of 80.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 3 has an accuracy of 78.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 5 has an accuracy of 79.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 7 has an accuracy of 78.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 8 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 9 has an accuracy of 78.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 10 has an accuracy of 77.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 11 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 12 has an accuracy of 81.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 13 has an accuracy of 78.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 15 has an accuracy of 77.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 16 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 17 has an accuracy of 78.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 19 has an accuracy of 78.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 21 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 22 has an accuracy of 80.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 23 has an accuracy of 76.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 24 has an accuracy of 78.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 27 has an accuracy of 77.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 29 has an accuracy of 77.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 30 has an accuracy of 80.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 31 has an accuracy of 79.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 32 has an accuracy of 79.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 33 has an accuracy of 78.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 35 has an accuracy of 78.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 36 has an accuracy of 79.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 37 has an accuracy of 77.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 38 has an accuracy of 75.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 39 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6] and adding 40 has an accuracy of 78.8%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] was the best, accuracy is 81.1%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 1 has an accuracy of 78.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 2 has an accuracy of 81.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 3 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 5 has an accuracy of 78.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 7 has an accuracy of 77.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 8 has an accuracy of 79.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 9 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 10 has an accuracy of 77.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 11 has an accuracy of 78.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 13 has an accuracy of 80.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 15 has an accuracy of 77.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 16 has an accuracy of 78.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 17 has an accuracy of 79.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 19 has an accuracy of 76.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 21 has an accuracy of 77.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 22 has an accuracy of 78.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 23 has an accuracy of 77.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 24 has an accuracy of 79.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 27 has an accuracy of 78.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 29 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 30 has an accuracy of 79.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 31 has an accuracy of 76.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 32 has an accuracy of 78.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 33 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 35 has an accuracy of 79.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 36 has an accuracy of 79.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 37 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 38 has an accuracy of 76.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 39 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12] and adding 40 has an accuracy of 79.0%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] was the best, accuracy is 81.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 1 has an accuracy of 80.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 3 has an accuracy of 78.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 5 has an accuracy of 77.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 7 has an accuracy of 77.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 8 has an accuracy of 80.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 9 has an accuracy of 77.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 10 has an accuracy of 77.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 11 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 13 has an accuracy of 79.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 15 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 16 has an accuracy of 76.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 17 has an accuracy of 77.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 19 has an accuracy of 75.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 21 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 22 has an accuracy of 78.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 23 has an accuracy of 78.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 24 has an accuracy of 79.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 27 has an accuracy of 78.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 29 has an accuracy of 77.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 30 has an accuracy of 78.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 31 has an accuracy of 76.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 32 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 33 has an accuracy of 78.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 35 has an accuracy of 77.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 36 has an accuracy of 78.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 37 has an accuracy of 77.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 38 has an accuracy of 75.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 39 has an accuracy of 79.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2] and adding 40 has an accuracy of 79.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] was the best, accuracy is 80.4%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 1 has an accuracy of 78.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 3 has an accuracy of 77.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 5 has an accuracy of 77.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 7 has an accuracy of 77.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 9 has an accuracy of 76.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 10 has an accuracy of 76.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 11 has an accuracy of 77.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 13 has an accuracy of 77.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 15 has an accuracy of 76.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 16 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 17 has an accuracy of 75.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 19 has an accuracy of 75.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 21 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 22 has an accuracy of 77.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 23 has an accuracy of 76.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 24 has an accuracy of 78.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 27 has an accuracy of 78.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 29 has an accuracy of 76.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 30 has an accuracy of 77.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 31 has an accuracy of 76.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 32 has an accuracy of 77.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 33 has an accuracy of 78.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 35 has an accuracy of 77.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 36 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 37 has an accuracy of 77.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 38 has an accuracy of 75.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 39 has an accuracy of 77.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8] and adding 40 has an accuracy of 78.2%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] was the best, accuracy is 78.8%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 1 has an accuracy of 77.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 3 has an accuracy of 75.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 5 has an accuracy of 75.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 7 has an accuracy of 76.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 9 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 10 has an accuracy of 76.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 11 has an accuracy of 75.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 13 has an accuracy of 76.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 15 has an accuracy of 75.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 16 has an accuracy of 76.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 17 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 19 has an accuracy of 75.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 21 has an accuracy of 75.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 22 has an accuracy of 76.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 23 has an accuracy of 76.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 24 has an accuracy of 76.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 29 has an accuracy of 76.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 30 has an accuracy of 76.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 31 has an accuracy of 77.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 32 has an accuracy of 76.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 33 has an accuracy of 76.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 35 has an accuracy of 75.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 36 has an accuracy of 75.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 37 has an accuracy of 75.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 38 has an accuracy of 74.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 39 has an accuracy of 75.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27] and adding 40 has an accuracy of 75.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] was the best, accuracy is 77.3%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 1 has an accuracy of 75.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 3 has an accuracy of 74.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 5 has an accuracy of 74.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 7 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 9 has an accuracy of 73.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 10 has an accuracy of 75.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 11 has an accuracy of 74.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 13 has an accuracy of 75.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 15 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 16 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 17 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 19 has an accuracy of 75.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 21 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 22 has an accuracy of 76.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 23 has an accuracy of 74.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 24 has an accuracy of 75.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 29 has an accuracy of 74.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 30 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 32 has an accuracy of 76.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 33 has an accuracy of 74.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 35 has an accuracy of 75.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 36 has an accuracy of 77.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 37 has an accuracy of 75.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 38 has an accuracy of 74.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 39 has an accuracy of 75.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31] and adding 40 has an accuracy of 73.1%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] was the best, accuracy is 77.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 1 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 3 has an accuracy of 76.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 5 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 7 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 9 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 10 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 11 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 13 has an accuracy of 75.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 15 has an accuracy of 74.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 16 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 17 has an accuracy of 76.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 19 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 21 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 22 has an accuracy of 76.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 23 has an accuracy of 75.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 24 has an accuracy of 76.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 29 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 30 has an accuracy of 75.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 32 has an accuracy of 75.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 33 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 35 has an accuracy of 74.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 37 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 38 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 39 has an accuracy of 75.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36] and adding 40 has an accuracy of 71.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] was the best, accuracy is 76.8%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 1 has an accuracy of 75.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 3 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 5 has an accuracy of 75.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 7 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 9 has an accuracy of 74.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 10 has an accuracy of 74.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 11 has an accuracy of 75.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 13 has an accuracy of 73.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 15 has an accuracy of 74.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 16 has an accuracy of 73.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 17 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 19 has an accuracy of 74.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 21 has an accuracy of 74.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 22 has an accuracy of 74.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 23 has an accuracy of 75.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 29 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 30 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 32 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 33 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 35 has an accuracy of 74.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 37 has an accuracy of 75.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 38 has an accuracy of 74.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 39 has an accuracy of 74.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24] and adding 40 has an accuracy of 72.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] was the best, accuracy is 75.5%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 1 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 3 has an accuracy of 73.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 7 has an accuracy of 74.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 9 has an accuracy of 73.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 10 has an accuracy of 75.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 11 has an accuracy of 73.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 13 has an accuracy of 75.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 15 has an accuracy of 72.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 16 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 17 has an accuracy of 72.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 19 has an accuracy of 73.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 21 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 22 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 23 has an accuracy of 74.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 29 has an accuracy of 73.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 30 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 32 has an accuracy of 73.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 33 has an accuracy of 73.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 35 has an accuracy of 73.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 37 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 38 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 39 has an accuracy of 73.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5] and adding 40 has an accuracy of 72.2%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] was the best, accuracy is 75.1%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 1 has an accuracy of 74.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 3 has an accuracy of 72.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 7 has an accuracy of 72.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 9 has an accuracy of 73.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 11 has an accuracy of 73.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 13 has an accuracy of 73.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 15 has an accuracy of 73.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 16 has an accuracy of 71.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 17 has an accuracy of 74.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 19 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 21 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 22 has an accuracy of 73.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 23 has an accuracy of 74.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 29 has an accuracy of 72.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 30 has an accuracy of 73.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 32 has an accuracy of 74.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 33 has an accuracy of 74.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 35 has an accuracy of 72.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 37 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 38 has an accuracy of 74.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 39 has an accuracy of 74.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10] and adding 40 has an accuracy of 73.2%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] was the best, accuracy is 74.9%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 1 has an accuracy of 72.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 3 has an accuracy of 71.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 7 has an accuracy of 73.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 9 has an accuracy of 71.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 11 has an accuracy of 71.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 13 has an accuracy of 72.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 15 has an accuracy of 71.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 16 has an accuracy of 73.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 19 has an accuracy of 74.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 21 has an accuracy of 72.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 22 has an accuracy of 72.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 23 has an accuracy of 74.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 29 has an accuracy of 71.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 30 has an accuracy of 73.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 32 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 33 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 35 has an accuracy of 72.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 37 has an accuracy of 71.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 38 has an accuracy of 72.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 39 has an accuracy of 74.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17] and adding 40 has an accuracy of 72.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] was the best, accuracy is 74.5%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 1 has an accuracy of 72.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 3 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 7 has an accuracy of 72.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 9 has an accuracy of 70.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 11 has an accuracy of 72.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 13 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 15 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 16 has an accuracy of 72.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 19 has an accuracy of 73.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 21 has an accuracy of 72.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 22 has an accuracy of 72.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 23 has an accuracy of 74.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 29 has an accuracy of 71.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 30 has an accuracy of 72.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 33 has an accuracy of 73.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 35 has an accuracy of 71.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 37 has an accuracy of 71.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 38 has an accuracy of 71.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 39 has an accuracy of 73.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32] and adding 40 has an accuracy of 73.2%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] was the best, accuracy is 74.2%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 1 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 3 has an accuracy of 72.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 7 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 9 has an accuracy of 72.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 11 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 13 has an accuracy of 73.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 15 has an accuracy of 71.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 16 has an accuracy of 73.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 19 has an accuracy of 72.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 21 has an accuracy of 72.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 22 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 29 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 30 has an accuracy of 71.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 33 has an accuracy of 73.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 35 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 37 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 38 has an accuracy of 72.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 39 has an accuracy of 74.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23] and adding 40 has an accuracy of 73.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] was the best, accuracy is 74.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 1 has an accuracy of 73.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 3 has an accuracy of 73.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 7 has an accuracy of 74.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 9 has an accuracy of 71.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 11 has an accuracy of 71.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 13 has an accuracy of 73.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 15 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 16 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 19 has an accuracy of 71.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 21 has an accuracy of 72.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 22 has an accuracy of 72.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 29 has an accuracy of 71.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 30 has an accuracy of 73.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 33 has an accuracy of 73.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 35 has an accuracy of 71.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 37 has an accuracy of 71.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 38 has an accuracy of 71.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39] and adding 40 has an accuracy of 72.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] was the best, accuracy is 74.3%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 1 has an accuracy of 73.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 3 has an accuracy of 72.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 9 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 11 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 13 has an accuracy of 72.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 15 has an accuracy of 72.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 16 has an accuracy of 72.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 19 has an accuracy of 72.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 21 has an accuracy of 72.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 22 has an accuracy of 71.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 29 has an accuracy of 70.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 30 has an accuracy of 72.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 33 has an accuracy of 72.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 35 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 37 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 38 has an accuracy of 71.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7] and adding 40 has an accuracy of 74.1%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] was the best, accuracy is 74.1%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 1 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 3 has an accuracy of 72.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 9 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 11 has an accuracy of 71.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 13 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 15 has an accuracy of 72.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 16 has an accuracy of 72.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 19 has an accuracy of 70.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 21 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 22 has an accuracy of 72.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 29 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 30 has an accuracy of 71.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 33 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 35 has an accuracy of 69.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 37 has an accuracy of 69.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40] and adding 38 has an accuracy of 72.3%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] was the best, accuracy is 72.4%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 1 has an accuracy of 72.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 3 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 9 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 11 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 13 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 15 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 16 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 19 has an accuracy of 69.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 21 has an accuracy of 70.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 29 has an accuracy of 69.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 30 has an accuracy of 70.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 33 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 35 has an accuracy of 69.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 37 has an accuracy of 68.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22] and adding 38 has an accuracy of 70.3%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] was the best, accuracy is 72.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 3 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 9 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 11 has an accuracy of 69.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 13 has an accuracy of 71.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 15 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 16 has an accuracy of 69.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 19 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 21 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 29 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 30 has an accuracy of 71.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 33 has an accuracy of 72.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 35 has an accuracy of 68.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 37 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1] and adding 38 has an accuracy of 71.2%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] was the best, accuracy is 72.9%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 3 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 9 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 11 has an accuracy of 70.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 13 has an accuracy of 71.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 15 has an accuracy of 71.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 16 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 19 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 21 has an accuracy of 70.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 29 has an accuracy of 69.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 30 has an accuracy of 71.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 35 has an accuracy of 69.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 37 has an accuracy of 70.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33] and adding 38 has an accuracy of 71.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] was the best, accuracy is 71.5%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 3 has an accuracy of 70.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 9 has an accuracy of 70.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 11 has an accuracy of 70.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 13 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 15 has an accuracy of 71.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 16 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 19 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 21 has an accuracy of 70.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 29 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 30 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 35 has an accuracy of 69.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38] and adding 37 has an accuracy of 70.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] was the best, accuracy is 71.4%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 3 has an accuracy of 71.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 9 has an accuracy of 70.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 11 has an accuracy of 69.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 13 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 16 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 19 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 21 has an accuracy of 70.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 29 has an accuracy of 70.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 30 has an accuracy of 69.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 35 has an accuracy of 68.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15] and adding 37 has an accuracy of 70.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] was the best, accuracy is 71.2%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 9 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 11 has an accuracy of 70.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 13 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 16 has an accuracy of 69.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 19 has an accuracy of 70.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 21 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 29 has an accuracy of 69.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 30 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 35 has an accuracy of 70.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3] and adding 37 has an accuracy of 69.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] was the best, accuracy is 70.7%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 9 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 11 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 13 has an accuracy of 70.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 16 has an accuracy of 70.6%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 19 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 21 has an accuracy of 70.9%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 29 has an accuracy of 69.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 35 has an accuracy of 69.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30] and adding 37 has an accuracy of 69.8%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] was the best, accuracy is 71.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 9 has an accuracy of 70.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 11 has an accuracy of 69.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 13 has an accuracy of 71.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 16 has an accuracy of 68.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 21 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 29 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 35 has an accuracy of 69.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19] and adding 37 has an accuracy of 70.3%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] was the best, accuracy is 71.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 9 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 11 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 16 has an accuracy of 70.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 21 has an accuracy of 71.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 29 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 35 has an accuracy of 71.5%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13] and adding 37 has an accuracy of 70.0%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] was the best, accuracy is 71.8%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] and adding 9 has an accuracy of 70.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] and adding 11 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] and adding 16 has an accuracy of 72.0%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] and adding 29 has an accuracy of 69.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] and adding 35 has an accuracy of 70.4%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21] and adding 37 has an accuracy of 70.8%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16] was the best, accuracy is 72.0%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16] and adding 9 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16] and adding 11 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16] and adding 29 has an accuracy of 70.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16] and adding 35 has an accuracy of 71.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16] and adding 37 has an accuracy of 70.0%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35] was the best, accuracy is 71.2%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35] and adding 9 has an accuracy of 70.8%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35] and adding 11 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35] and adding 29 has an accuracy of 70.2%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35] and adding 37 has an accuracy of 69.6%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11] was the best, accuracy is 71.1%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11] and adding 9 has an accuracy of 71.3%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11] and adding 29 has an accuracy of 70.7%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11] and adding 37 has an accuracy of 69.3%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11, 9] was the best, accuracy is 71.3%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11, 9] and adding 29 has an accuracy of 71.1%
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11, 9] and adding 37 has an accuracy of 69.5%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11, 9, 29] was the best, accuracy is 71.1%
+
+---Using features [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11, 9, 29] and adding 37 has an accuracy of 68.4%
+Feature set [18, 34, 14, 25, 20, 28, 4, 26, 6, 12, 2, 8, 27, 31, 36, 24, 5, 10, 17, 32, 23, 39, 7, 40, 22, 1, 33, 38, 15, 3, 30, 19, 13, 21, 16, 35, 11, 9, 29, 37] was the best, accuracy is 68.4%
+
+
+Finished search! The best feature subset is [18, 34], which has an accuracy of 96.7%
