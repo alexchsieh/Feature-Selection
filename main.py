@@ -1,6 +1,16 @@
 import pandas as table
 import copy
-import math
+import numpy as np
+
+
+def findDist(a, b, c):
+    dist = 0
+    for i in range(1, len(a)):
+        if i in c:
+            continue
+        # distance formula calculation
+        dist = dist + pow((a[i] - b[i]), 2)
+    return np.sqrt(dist)
 
 
 def feature_search(data, alg):
@@ -12,7 +22,6 @@ def feature_search(data, alg):
 
     # Accounts for the levels of the tree
     for i in range(1, len(data[0])):
-        print('On the ', i, ' th level of the search tree')
         feature_to_add_at_this_level = 0
         best_so_far_accuracy = 0
 
@@ -20,7 +29,6 @@ def feature_search(data, alg):
         for k in range(1, len(data[0])):
             # Don't repeat for the same feature
             if k not in current_set_of_features:
-                print(' -- Considering adding the ', k, ' feature')
 
                 # Returns accuracy with new feature
                 accuracy = leave_one_out_cross_validation(
@@ -51,6 +59,7 @@ def feature_search(data, alg):
 
         print(f'Feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%') if alg == 1 else print(
             f'Removing feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%')
+        print()
 
     print(f'\nFinished search! The best feature subset is {s}, which has an accuracy of {round(acc * 100, 1)}%') if alg == 1 else print(
         f'\nFinished search! The best feature subset to remove is {s}, which has an accuracy of {round(acc * 100, 1)}%')
@@ -70,10 +79,10 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
 
     # If forward, save all the columns you are ignoring from the total data set
     if alg == 1:
+        # FIX THIS
         ignoreColumns = list(range(1, len(data[0])))
-        for i in ignoreColumns:
-            if i not in a:
-                ignoreColumns.append(i)
+        ignoreColumns = [x for x in ignoreColumns if x not in a]
+
     # If backwards, give it current data set as you're going to remove
     else:
         ignoreColumns = a
@@ -88,11 +97,7 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
             if k == i:
                 continue
 
-            dist = 0
-            # figure out distance function
-            for i in range(1, len(currRow)):
-                if i not in ignoreColumns:
-                    dist = math.sqrt(pow(sum(currRow[i]-currRowSkip[i]), 2))
+            dist = findDist(currRow, currRowSkip, ignoreColumns)
 
             if dist < nearest_neighbor_distance:
                 nearest_neighbor_distance = dist
@@ -101,7 +106,7 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
         if label_object_to_classify == nearest_neighbor_label:
             number_correctly_classified = number_correctly_classified + 1
 
-    return number_correctly_classified / len(data[0])
+    return number_correctly_classified / len(data)
 
 
 def main():
@@ -109,7 +114,7 @@ def main():
 
     file = input('Type in the name of the file to test: ')
     algo = int(
-        input('Type the numbef of the algorithm you wan to run. \n1) Forward Selection\n2) Backward Elimination'))
+        input('Type the numbef of the algorithm you wan to run. \n1) Forward Selection\n2) Backward Elimination\n'))
 
     # Reading file using pandas library
     data = table.read_table(file, delim_whitespace=True, header=None)
@@ -123,10 +128,10 @@ def main():
 
     # Looks for the accuracy
     acc = leave_one_out_cross_validation(
-        save, [i for i in range(1, len(save[0]) - 1)], len(save[0]), '1')
+        save, [], [], '1' if algo == 1 else '2')
 
     print(
-        f'\nRunning nearest neighbor with all {data.shape[1] - 1} features, using "leave-one-out" evaluation, I get an accuracy of {acc * 100}%')
+        f'\nRunning nearest neighbor with all {data.shape[1] - 1} features, using "leave-one-out" evaluation, I get an accuracy of {acc}%')
     print('\nBeginning search.')
     feature_search(save, algo)
 
