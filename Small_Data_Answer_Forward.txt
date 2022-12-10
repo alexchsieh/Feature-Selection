@@ -1,0 +1,48 @@
+Welcome to Alex Hsieh's Feature Selection Algorithm.
+Type in the name of the file to test: CS170_Small_Data__98.txt
+Type the number of the algorithm you wan to run. 
+1) Forward Selection
+2) Backward Elimination
+1
+
+CS170_Small_Data__98.txt has 6 features (not including the class attribute), with 500 instances.
+
+Running nearest neighbor with all 6 features, using "leave-one-out" evaluation, I get an accuracy of 18.6%
+
+Beginning search.
+---Using features [] and adding 1 has an accuracy of 71.4%
+---Using features [] and adding 2 has an accuracy of 69.2%
+---Using features [] and adding 3 has an accuracy of 72.2%
+---Using features [] and adding 4 has an accuracy of 71.4%
+---Using features [] and adding 5 has an accuracy of 68.4%
+---Using features [] and adding 6 has an accuracy of 84.4%
+Feature set [6] was the best, accuracy is 84.4%
+
+---Using features [6] and adding 1 has an accuracy of 95.0%
+---Using features [6] and adding 2 has an accuracy of 87.4%
+---Using features [6] and adding 3 has an accuracy of 84.8%
+---Using features [6] and adding 4 has an accuracy of 87.0%
+---Using features [6] and adding 5 has an accuracy of 83.0%
+Feature set [6, 1] was the best, accuracy is 95.0%
+
+---Using features [6, 1] and adding 2 has an accuracy of 93.0%
+---Using features [6, 1] and adding 3 has an accuracy of 94.4%
+---Using features [6, 1] and adding 4 has an accuracy of 92.4%
+---Using features [6, 1] and adding 5 has an accuracy of 93.8%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Feature set [6, 1, 3] was the best, accuracy is 94.4%
+
+---Using features [6, 1, 3] and adding 2 has an accuracy of 88.6%
+---Using features [6, 1, 3] and adding 4 has an accuracy of 90.4%
+---Using features [6, 1, 3] and adding 5 has an accuracy of 89.4%
+Feature set [6, 1, 3, 4] was the best, accuracy is 90.4%
+
+---Using features [6, 1, 3, 4] and adding 2 has an accuracy of 86.4%
+---Using features [6, 1, 3, 4] and adding 5 has an accuracy of 84.8%
+Feature set [6, 1, 3, 4, 2] was the best, accuracy is 86.4%
+
+---Using features [6, 1, 3, 4, 2] and adding 5 has an accuracy of 83.0%
+Feature set [6, 1, 3, 4, 2, 5] was the best, accuracy is 83.0%
+
+
+Finished search! The best feature subset to remove is [6, 1], which has an accuracy of 95.0%
