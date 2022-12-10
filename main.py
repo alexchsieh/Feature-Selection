@@ -58,15 +58,40 @@ def feature_search(data, alg):
 def leave_one_out_cross_validation(data, current_set_of_features, add_feature, alg):
     number_correctly_classified = 0
 
+    # Implements a copy to manipulate in the cross validation
+    a = copy.deepcopy(current_set_of_features)
+
+    # Adds the new feature in question to test accuracy
+    a.append(add_feature)
+
+    # New set to keep track of which columns not to use in validation
+    ignoreColumns = None
+
+    # If forward, save all the columns you are ignoring from the total data set
+    if alg == 1:
+        ignoreColumns = list(range(1, len(data[0])))
+        for i in ignoreColumns:
+            if i not in a:
+                ignoreColumns.append(i)
+    # If backwards, give it current data set as you're going to remove
+    else:
+        ignoreColumns = a
+
     for i in range(1, len(data[0])):
         object_to_classify = data(i, 2: end)
         label_object_to_classify = data(i, 1)
         nearest_neighbor_distance = float('inf')
         nearest_neighbor_location = float('inf')
+        nearest_neighbor_label = float('inf')
 
         for k in range(1, len(data[0])):
-            if k != i:
-                distance = sqrt(sum((object_to_classify - data(k, 2: end)). ^ 2))
+            # skips itself from classification
+            if k == i:
+                continue
+
+            # figure out distance function
+            distance = sqrt(sum((object_to_classify - data(k, 2: end)). ^ 2))
+
             if distance < nearest_neighbor_distance:
                 nearest_neighbor_distance = distance
                 nearest_neighbor_location = k
@@ -75,7 +100,7 @@ def leave_one_out_cross_validation(data, current_set_of_features, add_feature, a
         if label_object_to_classify == nearest_neighbor_label:
             number_correctly_classified = number_correctly_classified + 1
 
-    accuracy = number_correctly_classified / len(data[0])
+    return number_correctly_classified / len(data[0])
 
 
 def main():
