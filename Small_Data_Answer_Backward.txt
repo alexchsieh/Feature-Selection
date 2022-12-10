@@ -1,0 +1,48 @@
+Welcome to Alex Hsieh's Feature Selection Algorithm.
+Type in the name of the file to test: CS170_Small_Data__98.txt
+Type the number of the algorithm you wan to run. 
+1) Forward Selection
+2) Backward Elimination
+2
+
+CS170_Small_Data__98.txt has 6 features (not including the class attribute), with 500 instances.
+
+Running nearest neighbor with all 6 features, using "leave-one-out" evaluation, I get an accuracy of 83.0%
+
+Beginning search.
+---Removing features [] and also 1 has an accuracy of 80.4%
+---Removing features [] and also 2 has an accuracy of 84.8%
+---Removing features [] and also 3 has an accuracy of 83.0%
+---Removing features [] and also 4 has an accuracy of 85.2%
+---Removing features [] and also 5 has an accuracy of 86.4%
+---Removing features [] and also 6 has an accuracy of 70.6%
+Removing feature set [5] was the best, accuracy is 86.4%
+
+---Removing features [5] and also 1 has an accuracy of 81.8%
+---Removing features [5] and also 2 has an accuracy of 90.4%
+---Removing features [5] and also 3 has an accuracy of 89.0%
+---Removing features [5] and also 4 has an accuracy of 88.6%
+---Removing features [5] and also 6 has an accuracy of 70.8%
+Removing feature set [5, 2] was the best, accuracy is 90.4%
+
+---Removing features [5, 2] and also 1 has an accuracy of 84.6%
+---Removing features [5, 2] and also 3 has an accuracy of 92.4%
+---Removing features [5, 2] and also 4 has an accuracy of 94.4%
+---Removing features [5, 2] and also 6 has an accuracy of 70.0%
+Removing feature set [5, 2, 4] was the best, accuracy is 94.4%
+
+---Removing features [5, 2, 4] and also 1 has an accuracy of 84.8%
+---Removing features [5, 2, 4] and also 3 has an accuracy of 95.0%
+---Removing features [5, 2, 4] and also 6 has an accuracy of 74.2%
+Removing feature set [5, 2, 4, 3] was the best, accuracy is 95.0%
+
+---Removing features [5, 2, 4, 3] and also 1 has an accuracy of 84.4%
+---Removing features [5, 2, 4, 3] and also 6 has an accuracy of 71.4%
+(Warning, accuracy has decreased! Continuing search in case of local maxima)
+Removing feature set [5, 2, 4, 3, 1] was the best, accuracy is 84.4%
+
+---Removing features [5, 2, 4, 3, 1] and also 6 has an accuracy of 18.6%
+Removing feature set [5, 2, 4, 3, 1, 6] was the best, accuracy is 18.6%
+
+
+Finished search! The best feature subset to remove is [5, 2, 4, 3], which has an accuracy of 95.0%
