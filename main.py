@@ -1,31 +1,58 @@
 import pandas as table
+import copy
 
 
 def feature_search(data, alg):
 
     current_set_of_features = []
+    acc = 0
+    isMax = False
+    s = None
 
+    # Accounts for the levels of the tree
     for i in range(1, len(data[0])):
         print('On the ', i, ' th level of the search tree')
         feature_to_add_at_this_level = 0
         best_so_far_accuracy = 0
 
+        # Accounts for each feature of the data set
         for k in range(1, len(data[0])):
+            # Don't repeat for the same feature
             if k not in current_set_of_features:
                 print(' -- Considering adding the ', k, ' feature')
+
+                # Returns accuracy with new feature
                 accuracy = leave_one_out_cross_validation(
                     data, current_set_of_features, k, alg)
 
                 print(f'---Using features {current_set_of_features} and adding {k} has an accuracy of {round(accuracy * 100, 1)}%') if alg == 1 else print(
                     f'---Removing features {current_set_of_features} and also {k} has an accuracy of {round(accuracy * 100, 1)}%')
 
+                # Keeps track of proper accuracy
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
                     feature_to_add_at_this_level = k
 
+        # Adds feature to list to not use again
         current_set_of_features.append(feature_to_add_at_this_level)
-        print('On level ', i, ' i added feature ',
-              feature_to_add_at_this_level, ' to current set')
+
+        # Checks to see if your current accuracy beats best, if so replace best and save set
+        if best_so_far_accuracy > acc:
+            acc = best_so_far_accuracy
+            s = copy.deepcopy(current_set_of_features)
+            isMax = False
+
+        # Once you've hit the peak, it'll start decreasing unless it's local maximum
+        elif best_so_far_accuracy < acc and isMax == False:
+            isMax = True
+            print(
+                '(Warning, accuracy has decreased! Continuing search in case of local maxima)')
+
+        print(f'Feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%') if alg == 1 else print(
+            f'Removing feature set {current_set_of_features} was the best, accuracy is {round(best_so_far_accuracy * 100, 1)}%')
+
+    print(f'\nFinished search! The best feature subset is {s}, which has an accuracy of {round(acc * 100, 1)}%') if alg == 1 else print(
+        f'\nFinished search! The best feature subset to remove is {s}, which has an accuracy of {round(acc * 100, 1)}%')
 
 
 def leave_one_out_cross_validation(data, current_set_of_features, add_feature, alg):
