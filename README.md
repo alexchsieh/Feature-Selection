@@ -36,7 +36,7 @@ python3 main.py
 
 use a testing data set
 
-```
+```sh
 ./tests/Small_Data.txt
 ```
 
